@@ -1,3 +1,11 @@
+terraform {
+  required_version          = "> 0.12.0"
+  required_providers {
+    vcd                     = ">= 2.8"
+  }
+  experiments               = []
+}
+
 locals {
   region = {
     name                    = var.region
