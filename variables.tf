@@ -4,24 +4,9 @@ variable "region" {
   type                      = string
 }
 
-variable "username" {
-  description               = "Aruba Private Cloud's username"
-  type                      = string
-}
-
-variable "password" {
-  description               = "Aruba Private Cloud's password"
-  type                      = string
-}
-
 variable "organization" {
   description               = "Aruba Private Cloud's Organization name"
   type                      = string
-}
-
-variable "cell_id" {
-  description               = "Aruba Private Cloud's cell id. You can retrieve by URL it's the number after \"dc\" part"
-  type                      = number
 }
 
 variable "vdc" {
